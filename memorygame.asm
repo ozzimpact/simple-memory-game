@@ -305,7 +305,6 @@ call writechar
 call crlf
 jmp _startup  
 ;-----------------------------------------------------------------------------------------------------------------
-;haniiiiiiiiiiiiiiiiii
 _inval2:
 mwrite "You entered invalid character!"
 mov al,7
@@ -630,7 +629,7 @@ mov edi,0
 mov ecx,7
 mov al,32
 call writechar
-l5:		; harfler için
+l5:		; harfler iÃ§in
 
 mov al,letter[esi]
 call writechar
